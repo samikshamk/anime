@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    background-color: #6640b3;
+    color: #fff;
+}
+
+.searchBox {
+    max-width: 1200px;
+    background-color: #e8e8e8;
+    text-align: center;
+}
+
+.searchForm {
+    width: 75%
+}
+
+.card{
+    height: 100%
+}
+.cardImg {
+    margin: auto 0;
+    border: 4px solid #262626;
+}
+
+.animeBox {
+    width: 150px;
+    /* color: #fff; */
+    padding: 0.75rem;
+    /* opacity: 0.5; */
+    text-align: center;
+}
+
+.bg-blue {
+    background-color: #90caf9;
+    color: #0d47a1;
+}
+
+.bg-purple {
+    background-color: #b39ddb;
+    color: #311b92;
+}
+
+.bg-red {
+    background-color: #f48fb1;
+    color: #880e4f;
+}
+
+.bg-green {
+    background-color: #80cbc4;
+    color: #004d40;
+}
+
+
+.paginateBtn {
+    height: 40px;
+    margin: 3rem auto;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.paginateBtn a {
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #262626;
+    color: #262626;
+    cursor: pointer;
+}
+
+.paginateBtn a:hover {
+    color: #fff;
+    background-color: #6640b3;
+}
+
+.paginateActive a {
+    color: #fff;
+    background-color: #6640b3;
+}
